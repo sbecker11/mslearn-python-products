@@ -15,6 +15,10 @@
 	"postCreateCommand": "pip3 install --user -r requirements.txt",
 
 	// Configure tool-specific properties.
+	// },
+	
+	"customizations": {
+
 		// Configure properties specific to VS Code.
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
@@ -26,8 +30,6 @@
 			]
 		}
 	},
-	// "customizations": {
-	// },
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }
